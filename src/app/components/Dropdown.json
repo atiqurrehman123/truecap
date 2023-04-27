@@ -1,0 +1,112 @@
+{
+  "New": [
+    {
+      "name": "Build and Price",
+      "link": "build-and-price"
+    },
+    {
+      "name": "Deals",
+      "link": "deals"
+    },
+    {
+      "name": "New Car Listings",
+      "link": "new-car-listings"
+    },
+    {
+      "name": "New Trucks",
+      "link": "new-trucks"
+    },
+    {
+      "name": "New SUVs",
+      "link": "new-suvs"
+    },
+    {
+      "name": "New Vans",
+      "link": "new-vans"
+    },
+    {
+      "name": "New Convertibles",
+      "link": "new-convertibles"
+    },
+    {
+      "name": "New EVs",
+      "link": "new-evs"
+    }
+  ],
+  "Used": [
+    {
+      "name": "Buy Online",
+      "link": "buy-online"
+    },
+    {
+      "name": "Used Cars Search",
+      "link": "used-cars-search"
+    },
+    {
+      "name": "Used Car Listings",
+      "link": "used-car-listings"
+    },
+    {
+      "name": "Used Trucks",
+      "link": "used-trucks"
+    },
+    {
+      "name": "Used SUVs",
+      "link": "used-sUVs"
+    },
+    {
+      "name": "Used Vans",
+      "link": "used-vans"
+    },
+    {
+      "name": "Used Convertibles",
+      "link": "used-convertibles"
+    },
+    {
+      "name": "Used EVs",
+      "link": "used-evs"
+    }
+  ],
+  "Research": [
+    {
+      "name": "Car Reviews",
+      "link": "car-reviews"
+    },
+    {
+      "name": "Car Parkings",
+      "link": "car-parkings"
+    },
+    {
+      "name": "Compare Cars",
+      "link": "compare-cars"
+    },
+    {
+      "name": "Buying Power Calculator",
+      "link": "buying-power-calculator"
+    },
+    {
+      "name": "Auto Loan Calculator",
+      "link": "auto-loan-calculator"
+    },
+    {
+      "name": "Auto Lease Calculator",
+      "link": "auto-lease-calculator"
+    },
+    {
+      "name": "Articles & Shopping Guides",
+      "link": "blog"
+    },
+    {
+      "name": "Lease a Car",
+      "link": "lease-a-car"
+    },
+    {
+      "name": "Electric Vehicles",
+      "link": "electric-vehicles"
+    },
+    {
+      "name": "Research Center",
+      "link": "research-center"
+    }
+  ]
+}
