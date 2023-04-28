@@ -2,11 +2,11 @@
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import TrueCaplogo from "../assests/trueCap.png"
+import TrueCaplogo from "../../assests/trueCap.png"
 import Image from "next/image";
 import Dropdown from "./Dropdown";
 import DropdownJson from "./Dropdown.json"
-import profile from "../assests/profile.png"
+import profile from "../../assests/profile.png"
 import Search from "./Search";
 const navigation = [
   // { name: "New", href: "#", current: false },

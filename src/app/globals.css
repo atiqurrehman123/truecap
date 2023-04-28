@@ -6,6 +6,12 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  /* Hero Section Images */
+  --image-url-md:url("./assests/heroImages/hero-image-md.jpg");
+  --image-url-sm:url("./assests/heroImages/hero-image-sm.jpg");
+  --image-url-lg:url("./assests/heroImages/hero-image-lg.jpg");
+  --image-url-xl:url("./assests/heroImages/hero-image-xl.jpg");
+
 }
 
 @media (prefers-color-scheme: dark) {
