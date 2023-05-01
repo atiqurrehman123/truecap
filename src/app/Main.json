@@ -1,0 +1,32 @@
+{
+    "researchCards":[
+        {
+          "id": "1",
+          "name": "Shop by budget",
+          "researchimg": "shop-by-budge.png",
+          "desc": "Save time and narrow down cars that fit your monthly payment and price point.",
+          "link": "See your buying power"
+        },
+         {
+           "id": "2",
+           "name": "Find your fit",
+           "researchimg": "find-your-fit.png",
+           "desc": "Not sure what you want? Answer a few questions to find what fits you best.",
+           "link": "Start quiz"
+         } ,
+        {
+          "id": "3",
+          "name": "Build and price",
+          "researchimg": "find-your-fit.png",
+          "desc": "Choose the make, model, trim, and options you want.",
+          "link": "Build your car"
+        },
+         {
+           "id": "4",
+           "name": "Sell and trade",
+           "researchimg": "find-your-fit.png",
+           "desc": "Get an offer in minutes, then cash out or trade in.",
+           "link": "Learn more"
+         }
+    ]
+}

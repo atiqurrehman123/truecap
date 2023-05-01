@@ -8,8 +8,6 @@ function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-
-
 export default function Dropdown({ name, dropdownlist }: DropdownTypes) {
   console.log(dropdownlist);
   const [open, setOpen] = useState(false);

@@ -38,7 +38,10 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex  items-center align-items justify-center sm:items-stretch sm:justify-center" style={{alignItems:"center"}}>
+              <div
+                className="flex  items-center align-items justify-center sm:items-stretch sm:justify-center"
+                style={{ alignItems: "center" }}
+              >
                 <div className="flex flex-shrink-0 items-center">
                   <Image
                     className="block h-8 w-auto lg:hidden"
@@ -81,7 +84,9 @@ export default function Navbar() {
                     ))}
                   </div>
                 </div>
-                <Search/>
+                <div>
+                  <Search Searchwidth={"10rem"}/>
+                </div>
               </div>
               <div className=" absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
@@ -93,7 +98,11 @@ export default function Navbar() {
                     className="h-6 w-6 rounded-full "
                     aria-hidden="true"
                   /> */}
-                  <Image src={profile} alt="profile" className="rounded-full bg-white h-8 w-8 hover:text-black"/>
+                  <Image
+                    src={profile}
+                    alt="profile"
+                    className="rounded-full bg-white h-8 w-8 hover:text-black"
+                  />
                 </button>
 
                 {/* Profile dropdown */}
