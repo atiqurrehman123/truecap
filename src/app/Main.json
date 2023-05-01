@@ -1,32 +1,174 @@
 {
-    "researchCards":[
-        {
-          "id": "1",
-          "name": "Shop by budget",
-          "researchimg": "shop-by-budge.png",
-          "desc": "Save time and narrow down cars that fit your monthly payment and price point.",
-          "link": "See your buying power"
-        },
-         {
-           "id": "2",
-           "name": "Find your fit",
-           "researchimg": "find-your-fit.png",
-           "desc": "Not sure what you want? Answer a few questions to find what fits you best.",
-           "link": "Start quiz"
-         } ,
-        {
-          "id": "3",
-          "name": "Build and price",
-          "researchimg": "find-your-fit.png",
-          "desc": "Choose the make, model, trim, and options you want.",
-          "link": "Build your car"
-        },
-         {
-           "id": "4",
-           "name": "Sell and trade",
-           "researchimg": "find-your-fit.png",
-           "desc": "Get an offer in minutes, then cash out or trade in.",
-           "link": "Learn more"
-         }
-    ]
+  "researchCards": [
+    {
+      "id": "1",
+      "name": "Shop by budget",
+      "researchimg": "shop-by-budge.png",
+      "desc": "Save time and narrow down cars that fit your monthly payment and price point.",
+      "link": "See your buying power"
+    },
+    {
+      "id": "2",
+      "name": "Find your fit",
+      "researchimg": "find-your-fit.png",
+      "desc": "Not sure what you want? Answer a few questions to find what fits you best.",
+      "link": "Start quiz"
+    },
+    {
+      "id": "3",
+      "name": "Build and price",
+      "researchimg": "build-and-price.png",
+      "desc": "Choose the make, model, trim, and options you want.",
+      "link": "Build your car"
+    },
+    {
+      "id": "4",
+      "name": "Sell and trade",
+      "researchimg": "sell-your-car.png",
+      "desc": "Get an offer in minutes, then cash out or trade in.",
+      "link": "Learn more"
+    }
+  ],
+  "TrueCards": [
+    {
+      "id": "1",
+      "name": "Transparent pricing",
+      "desc": "No surprises here. See how much you'll pay on cars you like.",
+      "image": "transparent-pricing.svg"
+    },
+    {
+      "id": "2",
+      "name": "Minutes, not hours",
+      "desc": "Time saving tools to help you find the right car in a snap.",
+      "image": "minutes-not-hours.svg"
+    },
+    {
+      "id": "3",
+      "name": "Shop your way",
+      "desc": "Your own pace, your own space. Shop online where and when it's convenient for you.",
+      "image": "shop-your-way.svg"
+    }
+  ],
+  "BrandCards": [
+    {
+      "id": "1",
+      "name": "Toyota",
+      "image": "transparent-pricing.svg",
+      "link":"prices-new/bmw"
+    },
+    {
+      "id": "2",
+      "name": "BMW",
+      "image": "minutes-not-hours.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "3",
+      "name": "Chevrolet",
+      "image": "shop-your-way.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "4",
+      "name": "Honda",
+      "image": "transparent-pricing.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "5",
+      "name": "Ford",
+      "image": "minutes-not-hours.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "6",
+      "name": "Audi",
+      "image": "shop-your-way.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "7",
+      "name": "Acura",
+      "image": "transparent-pricing.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "8",
+      "name": "Hyundai",
+      "image": "minutes-not-hours.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "9",
+      "name": "Dodge",
+      "image": "shop-your-way.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "10",
+      "name": "Mercedes-Benz",
+      "image": "transparent-pricing.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "11",
+      "name": "Kia",
+      "image": "minutes-not-hours.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "12",
+      "name": "Lexus",
+      "image": "shop-your-way.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "13",
+      "name": "Mercedes-Benz",
+      "image": "transparent-pricing.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "14",
+      "name": "MINI",
+      "image": "minutes-not-hours.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "15",
+      "name": "Mitsubishi",
+      "image": "shop-your-way.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "16",
+      "name": "Nissan",
+      "image": "transparent-pricing.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "17",
+      "name": "Parsche",
+      "image": "minutes-not-hours.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "18",
+      "name": "Ram",
+      "image": "shop-your-way.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "19",
+      "name": "Subaru",
+      "image": "transparent-pricing.svg",
+      "link": "prices-new/bmw"
+    },
+    {
+      "id": "17",
+      "name": "Volkswagen",
+      "image": "minutes-not-hours.svg",
+      "link": "prices-new/bmw"
+    }
+  ]
 }
