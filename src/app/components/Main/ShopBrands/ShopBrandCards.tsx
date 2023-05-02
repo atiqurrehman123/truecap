@@ -81,9 +81,11 @@ function ShopBrandCards({ shopbrandlist }: Brandtype) {
           for details on incentives that might be available to you.
         </div>
         <div className="flex flex-wrap p-0  bg-white ">
-          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-4 ">
-            <div className="mr-1 flex justify-center  py-12 items-center bg-black rounded-lg bg-[image:var(--image-url-sm)] md:bg-[image:var(--image-url-md)] lg:bg-[image:var(--image-url-lg)] xl:bg-[image:var(--image-url-xl)] bg-cover bg-no-repeat text-center bg-center">
-              <div className="py-3 text-white">
+          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-4 relative">
+            <div className="mr-1 flex justify-center relative  py-12 items-center rounded-lg bg-[image:var(--sellAndTrade--image-url-sm)] md:bg-[image:var(--sellAndTrade--image-url-md)] lg:bg-[image:var(--sellAndTrade--image-url-lg)] xl:bg-[image:var(--sellAndTrade--image-url-xl)] bg-cover bg-no-repeat  text-center bg-center">
+              <div className="absolute z-10 top-0 bottom-0 left-0 right-0 bg-[#15501833] md:bg-[#0000004D]"></div>
+
+              <div className="py-3 text-white  rounded relative z-20">
                 <div className="py-3 text-3xl font-medium">Sell and trade</div>
                 <div className="text-1xl text-xs py-3">
                   Answer a few questions and get an instant offer.
@@ -99,12 +101,17 @@ function ShopBrandCards({ shopbrandlist }: Brandtype) {
               </div>
             </div>
           </div>
-          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-4 ">
-            <div className=" flex justify-center  py-12 items-center bg-black rounded-lg bg-[image:var(--image-url-sm)] md:bg-[image:var(--image-url-md)] lg:bg-[image:var(--image-url-lg)] xl:bg-[image:var(--image-url-xl)] bg-cover bg-no-repeat text-center bg-center">
-              <div className="py-3 text-white">
-                <div className="py-3 text-3xl font-medium">Sell and trade</div>
+          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-4 relative">
+            <div className=" flex justify-center relative py-12 items-center bg-black rounded-lg bg-[image:var(--malitary--image-url-sm)] md:bg-[image:var(--malitary--image-url-md)] lg:bg-[image:var(--malitary--image-url-lg)] xl:bg-[image:var(--malitary--image-url-xl)] bg-cover bg-no-repeat text-center bg-center">
+              <div className="absolute z-10 top-0 bottom-0 left-0 right-0 bg-[#15501833] md:bg-[#0000004D]"></div>
+
+              <div className="py-3 text-white relative z-20">
+                <div className="py-3 text-3xl font-medium">
+                  Military savings
+                </div>
                 <div className="text-1xl text-xs py-3">
-                  Answer a few questions and get an instant offer.
+                  Find savings and incentives tailored for active duty
+                  military,verterans,and family{" "}
                 </div>
                 <div className="text-1xl my-4 text-center pb-3 pt-4 px-2">
                   <button
