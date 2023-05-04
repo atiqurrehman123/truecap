@@ -26,8 +26,8 @@ function ResearchCards({ Researchlist }: Researchtype) {
                 <div className="flex justify-center justify-end">
                   <Image
                     className="h-24 object-contain"
-                    // src={require(`../../../../../public/images/SearchImages/${researchitem.researchimg}`)}
                     src={require(`../../../../../public/images/SearchImages/${researchitem.researchimg}`)}
+                    // src={require(`../../../../../public/images/SearchImages/${researchitem.researchimg}`)}
                     key={researchitem.id}
                     alt={`Image ${researchitem.name}`}
                     width={500}

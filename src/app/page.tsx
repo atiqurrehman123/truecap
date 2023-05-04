@@ -5,6 +5,7 @@ import ResearchCards from './components/Main/ResearchCards/ResearchCards'
 import ResearchCardlist from "./Main.json"
 import TrueCarCards from './components/Main/TrueCarCards/TrueCarCards'
 import ShopBrandCards from './components/Main/ShopBrands/ShopBrandCards'
+import TopRatedCars from './components/Main/TopRatedCars/TopRatedCars'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,7 +18,9 @@ export default function Home() {
       {/* True Cards */}
       <TrueCarCards trueCardlist={ResearchCardlist.TrueCards} />
       {/* Shop brands Cars */}
-      <ShopBrandCards shopbrandlist={ResearchCardlist.BrandCards}/>
+      <ShopBrandCards shopbrandlist={ResearchCardlist.BrandCards} />
+      {/* Top Rated Cars  */}
+      <TopRatedCars shopbrandlist={ResearchCardlist.BrandCards} />
     </main>
   );
 }
