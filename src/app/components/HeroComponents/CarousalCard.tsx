@@ -4,7 +4,7 @@ type Props = {}
 
 function CarousalCard({}: Props) {
   return (
-    <div className="block rounded-lg dark:bg-neutral-700">
+    <div className="block rounded-lg dark:bg-neutral-700 m-1">
       <div
         className="relative overflow-hidden bg-cover bg-no-repeat"
         data-te-ripple-init

@@ -42,7 +42,7 @@ const [slideNumber, setSlideNumber] = useState(0);
         </div>
 
         <div className="flex flex-wrap mx-4 text-center md:[margin-left:8rem] md:[margin-right:8rem] bg-white p-3">
-          <div className="wrapper relative overflow-hidden flex flex-row justify-center items-center gap-3">
+          <div className="wrapper relative overflow-hidden flex flex-row justify-center items-center ">
             <div
               className="p-2 bg-white  cursor-pointer h-24 flex flex-row justify-center items-center rounded shadow-lg"
               onClick={() => handleClick("left")}
