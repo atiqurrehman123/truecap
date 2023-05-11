@@ -1,4 +1,4 @@
-function SampleNextArrow(props) {
+function SampleNextArrow(props:any) {
   const { className, style, onClick } = props;
   return (
     <div

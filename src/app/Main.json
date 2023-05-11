@@ -54,7 +54,7 @@
       "id": "1",
       "name": "Toyota",
       "image": "transparent-pricing.svg",
-      "link":"prices-new/bmw"
+      "link": "prices-new/bmw"
     },
     {
       "id": "2",
@@ -171,7 +171,7 @@
       "link": "prices-new/bmw"
     }
   ],
-  "topCarsReview":[
+  "topCarsReview": [
     {
       "id": "1",
       "name": "Volkswagen",
@@ -183,22 +183,54 @@
       "name": "2023-Cadillac-CT4-V",
       "image": "2023-Cadillac-CT4-V.avif",
       "link": "prices-new/bmw"
-    } ,
-     {
+    },
+    {
       "id": "3",
       "name": "2023-Lexus-LX",
       "image": "2023-Lexus-LX.avif",
       "link": "prices-new/bmw"
-    },  {
+    },
+    {
       "id": "4",
       "name": "2024-BMW-iX",
       "image": "2024-BMW-iX.avif",
       "link": "prices-new/bmw"
-    },  {
+    },
+    {
       "id": "5",
       "name": "2024-MINI-Convertible",
       "image": "2024-MINI-Convertible.avif",
       "link": "prices-new/bmw"
     }
+  ],
+  "peopleReview": [
+    {
+      "id": "1",
+      "name": "Athziri",
+      "username": "@Cee_OhWhattt",
+      "image":"./assests/twitter.png",
+      "desc": "@TrueCaller seriously helped me with my car deal. Anyone looking to get a car should just use it. #lifsaver"
+    },
+    {
+      "id": "2",
+      "name": "Athziri",
+      "username": "@Cee_OhWhattt",
+      "image": "./assests/twitter.png",
+      "desc": "I researched and discovered my amazing 🚗 on @TrueCar, long before buying cars online was popular."
+    },
+    {
+      "id": "3",
+      "name": "Athziri",
+      "username": "@Cee_OhWhattt",
+      "image": "./assests/twitter.png",
+      "desc": "TrueCar is awesome. Reduces all the annoying parts of the new car purchase."
+    } ,
+       {
+         "id": "4",
+         "name": "Athziri",
+         "username": "@Cee_OhWhattt",
+         "image": "./assests/twitter.png",
+         "desc": "@TrueCaller I used them. Amazing"
+       }
   ]
 }
