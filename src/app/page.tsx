@@ -8,6 +8,7 @@ import ShopBrandCards from './components/Main/ShopBrands/ShopBrandCards'
 import TopRatedCars from './components/Main/TopRatedCars/TopRatedCars'
 import CarsReview from './components/Main/CarsReview/CarsReview'
 import PeopleReview from './components/Main/PeopleReview/PeopleReview'
+import Resources from './components/Main/Resources/Resources'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -25,8 +26,8 @@ export default function Home() {
       <TopRatedCars shopbrandlist={ResearchCardlist.BrandCards} />
       {/* get Cars Reviews */}
       <CarsReview shopbrandlist={ResearchCardlist.topCarsReview} />
-      {/* People Review */}
-      <PeopleReview peopleReviewlist={ResearchCardlist.peopleReview} />
+      {/* Resources */}
+      <Resources resourceslist={ResearchCardlist.resources} />
     </main>
   );
 }
