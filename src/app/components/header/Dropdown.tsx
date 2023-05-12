@@ -8,17 +8,6 @@ function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-interface dropdownlist {
-  name: string;
-  link: string;
-};
-
-interface DropdownTypes {
-  name: string;
-  dropdownlist:dropdownlist[]
-}
-
-
 export default function Dropdown({ name, dropdownlist }: DropdownTypes) {
   console.log(dropdownlist);
   const [open, setOpen] = useState(false);

@@ -6,6 +6,24 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  /* Hero Section Images */
+  --image-url-md: url("./assests/heroImages/hero-image-md.jpg");
+  --image-url-sm: url("./assests/heroImages/hero-image-sm.jpg");
+  --image-url-lg: url("./assests/heroImages/hero-image-lg.jpg");
+  --image-url-xl: url("./assests/heroImages/hero-image-xl.jpg");
+
+  
+  /* Main Card Images sell and trade */
+  --sellAndTrade-image-url-md: url("./assests/maincardimages/sell-and-trade-sm.jpg");
+  --sellAndTrade--image-url-sm: url("./assests/maincardimages/sell-and-trade-sm.jpg");
+  --sellAndTrade--image-url-lg: url("./assests/maincardimages/sell-and-trade-lg.jpg");
+  --sellAndTrade--image-url-xl: url("./assests/maincardimages/sell-and-trade-lg.jpg");
+
+  /* Main Card Images Military and saving */
+  --malitary-image-url-md: url("./assests/maincardimages/military-savings-sm.jpg");
+  --malitary--image-url-sm: url("./assests/maincardimages/military-savings-sm.jpg");
+  --malitary--image-url-lg: url("./assests/maincardimages/military-savings-lg.jpg");
+  --malitary--image-url-xl: url("./assests/maincardimages/military-savings-lg.jpg");
 }
 
 @media (prefers-color-scheme: dark) {
