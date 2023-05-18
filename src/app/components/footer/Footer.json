@@ -1,0 +1,19 @@
+{ "footerArray":[
+  {
+    "title": "Products",
+    "links": ["Used", "New", "Sell Your Car", "EV","Military","Buy Online","Site Map"]
+  },
+  {
+    "title": "Resources",
+    "links": ["Blog", "FAQ", "Contact Us"]
+  },
+  {
+    "title": "Work With TrueCar",
+    "links": ["Dealers", "Partners"]
+  },
+  {
+    "title": "About",
+    "links": ["TrueCar, Inc.", "Team", "Careers", "Press","Developers","Investors"]
+  }
+]
+}

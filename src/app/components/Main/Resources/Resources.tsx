@@ -36,8 +36,8 @@ function Resources({ resourceslist }: Brandtype) {
       console.log(accordingArray);}, [activeTab]);
 
   return (
-    <div className="bg-[#f8f8f8] pt-1">
-      <div className="p-0  md:[margin-left:8rem] md:[margin-right:8rem] bg-white ">
+    <div className="bg-[#f8f8f8] pt-1 ">
+      <div className="p-0  md:[margin-left:8rem] md:[margin-right:8rem] bg-white mb-3">
         <div className="text-3xl my-5 font-semibold text-center font-semibold pb-3  py-14 px-2 ">
           Get car reviews from our experts
         </div>

@@ -23,14 +23,20 @@ const [slideNumber, setSlideNumber] = useState(0);
 
     console.log(direction,listRef.current?.getBoundingClientRect().x)
     setIsMoved(true);  
-        let distance = listRef.current.getBoundingClientRect().x - 50;
+        let distance:number =listRef.current && listRef.current.getBoundingClientRect().x - 50 || 0;
     if (direction === "left" && slideNumber > 0) {
       setSlideNumber(slideNumber - 1);
+      if(listRef.current){
+
       listRef.current.style.transform = `translateX(${120 + distance}px)`;
+      }
     }
     if (direction === "right" && slideNumber < 5) {
       setSlideNumber(slideNumber + 1);
+      if(listRef.current){
+
       listRef.current.style.transform = `translateX(${-120 + distance}px)`;
+      }
     }
   };
 
