@@ -8,6 +8,7 @@ import Dropdown from "./Dropdown";
 import DropdownJson from "./Dropdown.json"
 import profile from "../../assests/profile.png"
 import Search from "./Search";
+import Signup from "../Signup/Signpup";
 const navigation = [
   // { name: "New", href: "#", current: false },
   // { name: "Used", href: "#", current: false },
@@ -64,7 +65,7 @@ export default function Navbar() {
                   name={"Research"}
                   dropdownlist={DropdownJson.Research}
                 />
-
+                <Signup/>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
