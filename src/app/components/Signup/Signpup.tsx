@@ -4,11 +4,17 @@ import { ExclamationTriangleIcon } from "@heroicons/react/24/outline";
 import {AiOutlineMail} from "react-icons/ai"
 import {SiFacebook} from "react-icons/si"
 import {FcGoogle} from "react-icons/fc"
+import { SignUpForm } from "./Form";
 export default function Signup() {
 
   const [open, setOpen] = useState(true);
+  const [step,setStep] =useState<number>(1)
 
   const cancelButtonRef = useRef(null);
+
+  const ContinueWithEmailCredientials=()=>{
+    setStep(2)
+  }
 
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -41,16 +47,27 @@ export default function Signup() {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative  transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-lg">
+              <Dialog.Panel className="relative   transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-lg">
                 <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4  ">
                   <div className="sm:flex sm:items-start"></div>
                   {/* top close icon */}
-                  <div className="flex flex-col justify-end items-end">
-                    <span>x</span>
+                  <div className="flex flex-row items-center justify-between">
+                    <div>
+                      {step===2&&
+                      <div>
+
+                      <span className="mr-1">{"<"}</span>
+                      <span className="underline cursor-pointer" onClick={()=>{setStep(1)}}>Back</span>
+                      </div>
+}
+                    </div>
+                    <div>X</div>
                   </div>
                   {/* Steps div */}
                   <div className="flex justify-center my-4">
-                    <span className="text-xs text-gray-700">Step 1 of 2</span>
+                    <span className="text-xs text-gray-700">
+                      Step {step} of 2
+                    </span>
                   </div>
                   {/* Sign up Heading and description */}
                   <div className="flex flex-col items-center justify-center my-2">
@@ -58,46 +75,61 @@ export default function Signup() {
                       Sign Up
                     </h1>
                     <p className="text-center my-4 w-3/4 ">
-                      Sign up with your email address or continue to sign in
-                      with your Facebook or Google account.
+                      {step === 1
+                        ? "Sign up with your email address or continue to sign in with your Facebook or Google account."
+                        : "Your password must be six characters and include at least one number or symbol."}
                     </p>
                   </div>
                   {/* Buttons sections */}
-                  <div className="flex flex-col my-4 justify-center items-center">
-                    <div>
-                      <button className=" border-2  shadow-sm mb-3">
-                        <div className="flex w-56 items-center px-5 py-2 gap-3">
-                          <div>
-                            <AiOutlineMail />
+                  {step == 1 ? (
+                    <div className="flex flex-col my-4 justify-center items-center">
+                      <div>
+                        <button className=" border-2  shadow-sm mb-3">
+                          <div
+                            className="flex w-56 items-center px-5 py-2 gap-3"
+                            onClick={ContinueWithEmailCredientials}
+                          >
+                            <div>
+                              <AiOutlineMail />
+                            </div>
+                            <div className=" text-sm">Continue with Email</div>
                           </div>
-                          <div className=" text-sm">Continue with Email</div>
-                        </div>
-                      </button>
+                        </button>
+                      </div>
+                      <div>
+                        <button className=" border-2  shadow-sm mb-3">
+                          <div className="flex w-56 items-center px-4 py-2 gap-3">
+                            <div>
+                              <SiFacebook />
+                            </div>
+                            <div className="text-sm">Continue with Google</div>
+                          </div>
+                        </button>
+                      </div>{" "}
+                      <div>
+                        <button className=" border-2  shadow-sm mb-3">
+                          <div className="flex w-56 items-center px-2 py-2 gap-3">
+                            <div>
+                              <FcGoogle />
+                            </div>
+                            <div className="text-sm">
+                              Continue with Facebook
+                            </div>
+                          </div>
+                        </button>
+                      </div>
                     </div>
-                    <div>
-                      <button className=" border-2  shadow-sm mb-3">
-                        <div className="flex w-56 items-center px-4 py-2 gap-3">
-                          <div>
-                            <SiFacebook />
-                          </div>
-                          <div className="text-sm">Continue with Google</div>
-                        </div>
-                      </button>
-                    </div>{" "}
-                    <div>
-                      <button className=" border-2  shadow-sm mb-3">
-                        <div className="flex w-56 items-center px-2 py-2 gap-3">
-                          <div>
-                            <FcGoogle />
-                          </div>
-                          <div className="text-sm">Continue with Facebook</div>
-                        </div>
-                      </button>
+                  ) : (
+                    <div className="flex flex-col my-4 justify-center items-center">
+                      <SignUpForm/>
+
                     </div>
-                  </div>
+                  )}
                   {/* Navigate link section */}
                   <div>
-                    <a className="flex justify-center mb-4 text-sm underline">Already have an account</a>
+                    <a className="flex justify-center mb-4 text-sm underline cursor-pointer">
+                      Already have an account
+                    </a>
                   </div>
                 </div>
               </Dialog.Panel>
